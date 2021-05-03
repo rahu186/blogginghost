@@ -1,0 +1,328 @@
+
+body{
+/* background-image: url("gaming.jpg");
+background-repeat: no-repeat;
+background-size:1600px 1600px;
+height: auto;
+width: auto; */
+/* background-color:#f4f7f6; */
+background-color: white;
+}
+.aboutus{
+  max-width:1200px;
+  margin-left: auto;
+  margin-right: auto;
+height: auto;
+width:100%;
+background: transparent;
+/* background-color:white; */
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-top: 5px;
+font-family: 'Fredoka One', cursive;
+}
+
+.cards{
+    position:absolute;
+    right:25%;
+    bottom:48%;
+    height:100px;
+    width:100px;
+    /* background-color:yellow; */
+    border-radius:50%;
+    background-image: url("my.jpg"); 
+    background-size: 100px 115px;
+   background-repeat: no-repeat; 
+    background-position-x:center; 
+    background-position-y:top; 
+   
+    
+}
+
+.cards-container{
+position: relative;
+/* border-width: 5px;
+border-style: solid;
+border-color:purple; */
+height: 250px;
+width:200px;
+margin:0 30px 0 30px;
+/* background:linear-gradient(to left,red,blue); */
+ border-radius:4px; 
+/* background: linear-gradient(51deg,#0066ff 50%,white 50%); */
+/* border:2px solid black */
+
+}
+
+.cards-container #p2{
+
+position:absolute;
+right:22px;
+bottom:10px;
+text-align: center;
+
+}
+
+.cards-container #p1{
+
+    position:absolute;
+    right:80px;
+    bottom:60px;
+    
+    }
+
+    .text {
+        align-items: center;
+        text-align: center;
+        background:transparent;
+        position:absolute;
+        width:95%;
+        border-radius: 10%;
+        right: 5px;
+        top:60%;
+        color:black;
+
+    }
+
+    .box{
+        /* display: flex;
+        justify-content: space-around; */
+        height:auto;
+        max-width: 1200px;
+        width: 100%;
+        background:white;
+        margin-left:auto;
+        margin-right: auto;
+        text-align: justify;
+        background-color:transparent;
+        
+        /* opacity: ; */
+        /* font-family: 'Dancing Script', cursive; */
+        font-family: 'Open Sans', sans-serif;
+        /* font-family: 'Fredoka One', cursive; */
+
+
+    }
+
+   img.col-md-6.float-md-end.mb-3.ms-md-3{
+     width: 50%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+
+     margin-top: 3px;
+   }
+
+    
+    
+    
+     
+     .navbar-nav .nav-link:hover {
+         
+        /* border-bottom: 2px solid white; */
+        /* transition-duration: 1s; */
+    text-decoration-line: underline;
+        /* font-weight: bold; */
+        /* background-color: blueviolet; */
+        /* text-transform: uppercase; */
+        /* opacity:.5; */
+        
+    
+    
+    }
+
+    .container{
+      max-width: 1170vh;
+      background-color:transparent;
+      margin: auto;
+  }
+  
+  .row{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  ul{
+      list-style: none;
+      
+  }
+  
+  .footer{
+      background-color: #212529;
+      padding: 40px 0;
+      
+  }
+  
+  .footer-col{
+      width: 25%;
+      padding: 0 15px;
+      /* text-align:justify; */
+  
+  }
+
+  .footer-col ul{
+    padding-left: 0px;
+  }
+  .footer-col h4{
+  font-size: 18px;
+  color:#ffc107;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  position: relative;
+  font-family: 'Nunito', sans-serif;
+  line-height:1.5px;
+
+  font-weight: bold;
+  /* text-align: center; */
+  
+  }
+  
+  .footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+  }
+  
+  
+  .footer-col ul li a{
+  
+      font-size: 16px;
+      text-transform: capitalize;
+      color: green;
+      font-weight: 300;
+      text-decoration: none;
+      text-decoration-line: none;
+      color: white;
+      font-family: 'Nunito', sans-serif;
+      font-weight: bold;
+      display: block;
+      transition: all 0.3s ease;
+      
+  
+  
+  }
+  .footer-col ul li a:hover{
+      color:yellow;
+      padding-left:10px;
+  
+  }
+  .footer-col div.socialicon a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  color:black;
+  text-decoration-line: none;
+  background-color: white;
+  text-align: center;
+  border-radius: 50%;
+  padding: 11px;
+  font-size: 20px;
+  
+  }
+
+  
+
+   a.fab.fa-facebook-f::before{
+    color: blue;
+    
+  }
+
+
+ a.fab.fa-instagram::before{
+    color:orangered;
+    }
+
+     a.fab.fa-twitter::before{
+    color: blue;
+    }
+
+     a.fab.fa-youtube::before{
+    color: red;
+   }
+
+
+  
+  .footer  a.fa.fa-phone::before{
+      
+      color: green;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 3px 5px;
+    margin-right: 3px;
+  
+    }
+  
+    .footer  a.fa.fa-envelope::before{
+  
+             color: red;
+              background-color: white;
+             font-size: 18px;
+             border-radius: 50%;
+              padding: 5px 5px;
+              margin-right: 3px;
+            }
+  
+            .footer  a.fa.fa-home::before{
+  
+  color:black;
+  background-color: white;
+  font-size: 22px;
+  border-radius: 50%;
+  padding: 4px 5px;
+  margin-right: 3px;
+  text-decoration-color: white;
+  }
+  
+  .footer .contact a{
+      padding: 8px;
+      text-decoration-line: none;
+      color: white;
+      
+  }
+  .footer .contact b{
+      color: white;
+      font-family:'Nunito', sans-serif ;
+  }
+  
+
+  @media (max-width:980px){
+    
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+}
+
+@media (max-width:580px){
+    
+  .footer-col{
+    width: 70%;
+    margin-bottom: 30px;
+}
+}
+
+@media (max-width:300px){
+    
+  .footer-col{
+    width: 100%;
+    margin-bottom: 30px;
+}
+}
+  
+   @media (max-width:768px){
+    img.col-md-6.float-md-end.mb-3.ms-md-3{
+      width: 100%;
+      height: 300px;
+     
+    }
+   
+   }
+
+   @media (max-width:1200px){
+    .box{
+      width: 80%;
+    }
+  
+  }
+             
+         
+    

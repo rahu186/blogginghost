@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.full{
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+    background-color:transparent;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 3px;
+    text-align: justify;
+    
+    }
+    .navbar-nav .nav-link:hover {
+        text-decoration-line: underline;
+    }
+
+    .s{
+        width: 45%;
+        height: auto;
+        background-color: #ffffff;
+        padding: 10px;
+        margin-right: auto;
+        margin-left: auto;
+      border-radius: 2%;
+      box-shadow: 10px 0px 20px #c7c6c6;
+      /* border: 2px solid transparent; */
+    }
+
+    .t{
+        width: 45%;
+        height: auto;
+        background-color:white; 
+        padding: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 2%;
+        box-shadow: 10px 0px 20px #c7c6c6;
+       
+    
+    }
+
+    .u{
+        width: 60%;
+        height: auto;
+        background-color: #ffffff;
+        padding: 10px;
+        margin-right: auto;
+        margin-left: auto;
+      border-radius: 2%;
+      box-shadow: 10px 0px 20px #c7c6c6;
+      margin-top: 10px;
+      /* border: 2px solid transparent; */
+    }
+
+    .v{
+        width: 30%;
+        height: auto;
+        background-color:white; 
+        padding: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 2%;
+        box-shadow: 10px 0px 20px #c7c6c6;
+        margin-top: 10px;
+       
+    
+    }
+
+    .w{
+        width: 96%;
+        height: auto;
+        background-color:white; 
+        padding: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius:20px;
+        box-shadow: 10px 0px 20px #c7c6c6;
+        margin-top: 10px;
+       
+    
+    }
+    .title{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        color: #ffc107;
+        background-color: white;
+        margin:5px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px #0ff;
+    }
+
+    .next{
+        width: 90px;
+        height: 40px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 1rem;
+        background-color: orangered;
+        border-radius: 10px;
+       
+        
+     
+    }
+    .next  a{
+        text-decoration:none;
+        color: white;
+    }
+
+    .previous a{
+        text-decoration:none;
+        color: white;
+    }
+    .previous{
+        width: 90px;
+        height: 40px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 1rem;
+        background-color: orangered;
+        color: white;
+        text-decoration-color: none;
+        border-radius: 10px;
+
+
+    }
+
+    .container{
+        max-width: 1500px;
+        background-color:transparent;
+        margin: auto;
+    }
+    
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    ul{
+        list-style: none;
+        
+    }
+    
+    .footer{
+        background-color: #212529;
+        padding: 20px 0;
+        border-radius: 20px 20px 0px 0px;
+        
+    }
+    
+    .footer-col{
+        width: 25%;
+        padding: 0 15px;
+        /* text-align:justify; */
+    
+    }
+  
+    .footer-col ul{
+      padding-left: 0px;
+    }
+    .footer-col h4{
+    font-size: 18px;
+    color:#ffc107;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    line-height:1.5px;
+  
+    font-weight: bold;
+    /* text-align: center; */
+    
+    }
+    
+    .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+    }
+    
+    
+    .footer-col ul li a{
+    
+        font-size: 16px;
+        text-transform: capitalize;
+        color: green;
+        font-weight: 300;
+        text-decoration: none;
+        text-decoration-line: none;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+        display: block;
+        transition: all 0.3s ease;
+        
+    
+    
+    }
+    .footer-col ul li a:hover{
+        color:yellow;
+        padding-left:10px;
+    
+    }
+    .footer-col div.socialicon a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    color:black;
+    text-decoration-line: none;
+    background-color: white;
+    text-align: center;
+    border-radius: 50%;
+    padding: 11px;
+    font-size: 20px;
+    }
+  
+    
+  
+     a.fab.fa-facebook-f::before{
+      color: blue;
+    }
+  
+  
+   a.fab.fa-instagram::before{
+      color:orangered;
+      }
+  
+       a.fab.fa-twitter::before{
+      color: blue;
+      }
+  
+       a.fab.fa-youtube::before{
+      color: red;
+     }
+  
+  
+    
+    .footer  a.fa.fa-phone::before{
+        
+        color: green;
+      background-color: white;
+      font-size: 20px;
+      border-radius: 50%;
+      padding: 3px 5px;
+      margin-right: 3px;
+    
+      }
+    
+      .footer  a.fa.fa-envelope::before{
+    
+               color: red;
+                background-color: white;
+               font-size: 18px;
+               border-radius: 50%;
+                padding: 5px 5px;
+                margin-right: 3px;
+              }
+    
+              .footer  a.fa.fa-home::before{
+    
+    color:black;
+    background-color: white;
+    font-size: 22px;
+    border-radius: 50%;
+    padding: 4px 5px;
+    margin-right: 3px;
+    text-decoration-color: white;
+    }
+    
+    .footer .contact a{
+        padding: 8px;
+        text-decoration-line: none;
+        color: white;
+        
+    }
+    .footer .contact b{
+        color: white;
+        font-family:'Nunito', sans-serif ;
+    }
+
+    @media (max-width:768px){
+        .footer-col{
+            width: 50%;
+            margin-bottom: 30px;
+        }
+    }  @media (max-width:390px){
+            .footer-col{
+                width: 100%;
+     }
+     }
+         @media (max-width:768px){ 
+      .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+      
+     @media (max-width:505px){
+          .footer-col{
+              width: 100%;
+              
+          }
+      }
+
+      
+  
+
+    @media (max-width:1000px){
+        
+        /* .full{
+            max-width: 1700px;
+        } */
+
+        .s{
+
+            width: 100%;
+        }
+
+        .t{
+            width: 100%;
+        }
+        .u{
+            width: 100%;
+        }
+        .v{
+            width: 50%;
+        }
+    }
