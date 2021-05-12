@@ -232,6 +232,7 @@ body{
     }
     .center p{
         font-size: 1rem;
+      padding:20px;
     }
 
     .center h1{
